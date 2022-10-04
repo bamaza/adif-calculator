@@ -4,6 +4,9 @@ import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 import Link from '@mui/material/Link';
 import ProTip from './ProTip';
+import {TextField} from "@mui/material";
+import Grid from "@mui/material/Grid";
+import * as PropTypes from "prop-types";
 
 function Copyright() {
   return (
@@ -20,13 +23,13 @@ function Copyright() {
 
 export default function App() {
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth="lg">
       <Box sx={{ my: 4 }}>
-        <Typography variant="h4" component="h1" gutterBottom>
-          Create React App example
+        <Typography variant="h2" component="h1" gutterBottom>
+          Calculadora de cánones ADIF
         </Typography>
         <ProTip />
-        <Copyright />
+        {/*<Copyright />*/}
       </Box>
     </Container>
   );
