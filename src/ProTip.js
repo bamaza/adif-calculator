@@ -19,8 +19,30 @@ function LightBulbIcon(props) {
 
 
 const modalidadA = {
-  lineaA: 1.6767,
-  lineaNoA: 0.5082,
+  vl1: {
+    lineaA: 1.6767,
+    lineaNoA: 0.5082,
+  },
+  vl2: {
+    lineaA: 1.4873,
+    lineaNoA: 0.5133,
+  },
+  vl3: {
+    lineaA: 1.7350,
+    lineaNoA: 0.5118,
+  },
+  vcm: {
+    lineaA: 1.6069,
+    lineaNoA: 1.3851,
+  },
+  vot: {
+    lineaA: 1.7776,
+    lineaNoA: 0.4110,
+  },
+  m: {
+    lineaA: 0.4446,
+    lineaNoA: 0.0724,
+  }
 };
 
 const Item = styled(Paper)(({theme}) => ({
@@ -62,7 +84,7 @@ export default function ProTip() {
               Modalidad A
             </Typography>
             <Typography>
-              {modalidadA.lineaA} x 3.4 = 121
+              {modalidadA.vl1.lineaA} x 3.4 = 121
             </Typography>
           </Item>
         </Grid>
