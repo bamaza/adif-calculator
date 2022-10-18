@@ -45,6 +45,72 @@ const modalidadA = {
   }
 };
 
+const modalidadB = {
+  vl1: {
+    lineaA: 3.6414,
+    lineaNoA: 0.7247,
+  },
+  vl2: {
+    lineaA: 3.0043,
+    lineaNoA: 0.7320,
+  },
+  vl3: {
+    lineaA: 3.7855,
+    lineaNoA: 0.7299,
+  },
+  vcm: {
+    lineaA: 2.3316,
+    lineaNoA: 1.9752,
+  },
+  vot: {
+    lineaA: 0.9797,
+    lineaNoA: 0.5865,
+  },
+  m: {
+    lineaA: 1.1055,
+    lineaNoA: 0.1032,
+  }
+};
+
+const modalidadBAdicion = {
+  vl1: {
+    lineaBCN: 1.7611,
+    lineaSEV: 0.8647,
+    lineaRestoA: 0,
+    lineaNoA: 0,
+  },
+  vl2: {
+    lineaBCN: 0,
+    lineaSEV: 0,
+    lineaRestoA: 0,
+    lineaNoA: 0,
+  },
+  vl3: {
+    lineaBCN: 0.3023,
+    lineaSEV: 0.1962,
+    lineaRestoA: 0,
+    lineaNoA: 0,
+  },
+  vcm: {
+    lineaBCN: 0.4959,
+    lineaSEV: 0.3218,
+    lineaRestoA: 0,
+    lineaNoA: 2.3597,
+  },
+  vot: {
+    lineaBCN: 0,
+    lineaSEV: 0,
+    lineaRestoA: 0,
+    lineaNoA: 0,
+  },
+  m: {
+    lineaBCN: 0,
+    lineaSEV: 0,
+    lineaRestoA: 0,
+    lineaNoA: 0,
+  }
+}
+
 const Item = styled(Paper)(({theme}) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   ...theme.typography.body2,
