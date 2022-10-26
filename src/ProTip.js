@@ -45,6 +45,35 @@ const modalidadA = {
   }
 };
 
+
+const modalidadAAdicion = {
+  vl1: {
+    lineaA: 8.6371,
+    lineaNoA: 0.9265,
+  },
+  vl2: {
+    lineaA: 3.4358,
+    lineaNoA: 0.9358,
+  },
+  vl3: {
+    lineaA: 5.4446,
+    lineaNoA: 0.9332,
+  },
+  vcm: {
+    lineaA: 3.3744,
+    lineaNoA: 4.8849,
+  },
+  vot: {
+    lineaA: 1.5089,
+    lineaNoA: 0.7500,
+  },
+  m: {
+    lineaA: 1.2910,
+    lineaNoA: 0.1319,
+  }
+};
+
+
 const modalidadB = {
   vl1: {
     lineaA: 3.6414,
